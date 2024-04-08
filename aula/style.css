@@ -1,0 +1,58 @@
+.div:hover a {
+    color: red;
+    display: inline-block;
+}
+
+.div input:focus{
+    background-color: yellow;
+}
+
+/* li:first-child{
+    color: orange;
+}
+
+li:last-child{
+    color: red;
+}
+
+li:nth-child(2n+4){
+    color: green;
+} */
+
+ li:not(.meu-item){
+    color: cadetblue;
+ }
+
+ input[type="radio"]:checked{
+    margin-left: 250px;
+ }
+
+ input[type="checkbox"]:checked{
+    margin-left: 250px;
+ }
+
+ input[type=email]:invalid {
+    background: red;
+}
+
+input[type=email]:valid {
+    background: green;
+}
+
+p::first-letter{
+    color: red;
+    text-transform: uppercase;
+}
+
+p::first-line{
+    color: blue;
+}
+p::selection{
+    color: red;
+    background-color: yellow;
+}
+
+::marker{
+    color: red;
+    font-size: 23px;
+}
